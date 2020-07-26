@@ -1,0 +1,15 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    style="@style/FooterBar"
+     >
+
+  <com.google.android.gms.ads.AdView
+           xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+           android:id="@+id/adview"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           ads:adSize="BANNER"
+           ads:adUnitId="a15104e2bc8df27"
+           ads:loadAdOnCreate="true"
+          />
+</LinearLayout>

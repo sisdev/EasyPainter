@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:id="@+id/popup"
+   android:layout_height="wrap_content"
+   android:background="#545464"
+   android:orientation="vertical" >
+   
+    
+
+<Button
+   android:id="@+id/album"
+   android:layout_marginTop="10dp"
+   android:layout_gravity="center_horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:text="Album" 
+   android:background="#32323C"
+   android:textColor="#9B9B9D"
+   android:textStyle="bold"
+   android:layout_margin="5dp"/>
+
+<Button
+   android:id="@+id/google"
+   android:layout_marginTop="10dp"
+   android:layout_gravity="center_horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:text="Google"
+     android:background="#32323C"
+   android:textColor="#9B9B9D"
+   android:textStyle="bold" 
+   android:layout_margin="5dp"/>
+
+<Button
+   android:id="@+id/camera"
+   android:layout_marginTop="10dp"
+   android:layout_gravity="center_horizontal"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:text="Camera" 
+     android:background="#32323C"
+   android:textColor="#9B9B9D"
+   android:textStyle="bold"
+   android:layout_margin="5dp"/>
+
+</LinearLayout>

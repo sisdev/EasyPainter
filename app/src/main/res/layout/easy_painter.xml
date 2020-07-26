@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="#000000">
+          
+    <HorizontalScrollView       
+       android:orientation="vertical"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#000000">
+       
+   <LinearLayout 
+      android:orientation="horizontal"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:padding="5dp">
+        
+   
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChoosePictureButton"
+        android:background="@drawable/folder_image"
+        android:layout_margin="3dp"/>
+    
+     <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TakePictureButton"
+        android:background="@drawable/iphoto"
+        android:layout_margin="3dp"/>
+     
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_touchPaint"
+        android:background="@drawable/paint1"
+        android:layout_margin="3dp"/>
+      
+      <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TakePictureButton3"
+        android:background="@drawable/sodipodi"
+        android:layout_margin="3dp"/>
+      
+       <Button
+        android:id="@+id/SavePictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/save"
+        android:layout_margin="3dp"/> 
+     
+       
+       <Button
+        android:id="@+id/btn_brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/brush"
+        android:layout_margin="3dp"/> 
+       
+       
+       <Button
+        android:id="@+id/btn_paint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/multi"
+        android:layout_margin="3dp"/> 
+       
+       
+       <Button
+        android:id="@+id/btn_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/eraser"
+        android:layout_margin="3dp"/> 
+       
+       
+       <Button
+        android:id="@+id/btn_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mail_post_to"
+        android:layout_margin="3dp"/> 
+        
+       
+       <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/facebook"
+        android:layout_margin="3dp"/> 
+        
+       <Button
+        android:id="@+id/btn_twitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/twitter_image"
+        android:layout_margin="3dp"/> 
+       
+       
+       <Button
+        android:id="@+id/btn_dropbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dropbox"
+        android:layout_margin="3dp"/> 
+        
+       
+       <Button
+        android:id="@+id/btn_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/help"
+        
+        android:layout_margin="3dp"/> 
+       
+       
+    </LinearLayout>
+    </HorizontalScrollView>
+     
+    <ImageView
+        android:id="@+id/ChoosenImageView" 
+        android:layout_width="match_parent" 
+        android:layout_height="600dp"
+        android:background="#ffffff">
+    </ImageView> 
+    
+    <!-- <View
+        class="com.coreservlets.drawing.SingleTouchEventView"
+        android:id="@+id/ChoosenImageView" 
+        android:layout_width="match_parent" 
+        android:layout_height="600dp"
+        android:background="#ffffff">
+    </View> -->
+    
+    <com.google.android.gms.ads.AdView
+           android:id="@+id/adview"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           ads:adSize="BANNER"
+           ads:adUnitId="a14f531bafb65f3"
+           ads:loadAdOnCreate="true"
+           android:layout_alignParentBottom="true"/>
+ 
+    
+     
+     
+   
+     
+</LinearLayout>
+

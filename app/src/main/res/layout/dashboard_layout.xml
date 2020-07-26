@@ -1,0 +1,37 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root1"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3" 
+    >
+<LinearLayout 
+    android:id="@+id/home_root"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3">
+    	<!-- Include Action Bar -->
+    <TextView 
+    	    android:text="@string/app_name"
+    	    android:layout_width="match_parent"
+    	    android:layout_height="30dp"
+    	    android:drawableLeft="@drawable/home_redmain"
+    	    style="@style/texttitale"
+    	    android:gravity="center_vertical"
+    	    android:textColor="#ffffff"
+    	    android:paddingLeft="1dp"
+    	    android:background="@drawable/heading"/>
+    	
+    	<!--  Include Fragmented dashboard -->	
+		<include layout="@layout/fragment_layout"/>	
+		
+		
+		<TextView 
+		    android:layout_width="match_parent"
+		    android:layout_height="40dp"/>
+		 <!--  Include Footer -->
+		 <!-- <include layout="@layout/footer_layout"/> --> 
+    	    
+</LinearLayout>
+</ScrollView>

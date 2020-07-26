@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+
+         
+   <!--  <HorizontalScrollView
+       android:id="@+id/effect_layout"
+       android:layout_width="match_parent"
+       android:layout_height="60dp"
+       android:orientation="vertical"
+       android:background="#ff0000">       
+    
+  <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="2dp"
+    android:background="@drawable/bg3">
+    
+      
+      <Button
+          android:id="@+id/btn_effect_close"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+           android:textColor="#ffffff"
+          android:textStyle="bold"
+          android:drawableLeft="@drawable/close2" 
+          android:text="hide"
+          android:layout_margin="5dp"
+         
+        />
+      
+    <Button 
+          android:layout_width="3dp"
+          android:layout_height="wrap_content"
+          android:background="#ff0000"
+          />
+    
+       <Button
+          android:id="@+id/btn_distort"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+           android:textColor="#ffffff"
+          android:textStyle="bold"
+          android:drawableLeft="@drawable/paint1" 
+          android:text="distort"
+          android:layout_margin="5dp"
+         
+        />
+       
+         
+      
+    <Button
+          android:id="@+id/btn_brightness"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/brightness" 
+          android:text="brightness"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+          android:textStyle="bold"
+          android:layout_margin="5dp"
+        />  
+        
+       
+    
+    <Button
+          android:id="@+id/btn_contrast"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/contrast" 
+          android:text="contrast"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+          android:textStyle="bold"
+          android:layout_margin="5dp"
+        />
+     <Button
+          android:id="@+id/btn_eeffect"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableLeft="@drawable/effect3" 
+          android:text="Effect"
+          android:layout_margin="5dp"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+          android:textStyle="bold"
+        />
+  
+</LinearLayout>
+</HorizontalScrollView>
+     -->
+    
+</LinearLayout>

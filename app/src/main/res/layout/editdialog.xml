@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   <TextView 
+         android:text="Enter File name :"
+         android:id="@+id/txt_save"
+         android:layout_margin="5dp"
+         android:textStyle="bold"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <EditText
+         android:id="@+id/edit_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_save"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_margin="5dp" 
+        android:layout_below="@+id/edit_filename"/>
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancle" 
+        android:layout_margin="5dp"
+        android:layout_below="@+id/edit_filename"
+        android:layout_toRightOf="@+id/btn_save"/>
+    
+</RelativeLayout>

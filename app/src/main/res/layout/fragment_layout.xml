@@ -1,0 +1,60 @@
+<in.sisoft.view.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/bg3" >
+
+    <!-- News Feed Button -->
+
+    <Button
+        android:id="@+id/btn_newdraw"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/newdraw"
+        android:text="Drawing"/>
+
+    <!-- Friends Button -->
+
+    <Button
+        android:id="@+id/btn_choocepic"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/openfolder"
+        android:text="Edit Pic" />
+    <!-- Messages Button -->
+
+   
+
+    <!-- Places Button -->
+    
+    
+
+    <Button
+        android:id="@+id/btn_infoo"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/infoicon"
+        android:text="Info" />
+
+    <!-- Events Button -->
+
+    
+
+    <!-- Photos Button -->
+
+    <Button
+        android:id="@+id/btn_feedback"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/email"
+        android:text="Feedback" />
+    
+    <Button
+        android:id="@+id/btn_rateus"
+        style="@style/DashboardButton"  
+        android:text="" />
+    
+    
+     <Button
+        android:id="@+id/btn_takepic123"
+        style="@style/DashboardButton"
+        /> 
+
+</in.sisoft.view.DashboardLayout>

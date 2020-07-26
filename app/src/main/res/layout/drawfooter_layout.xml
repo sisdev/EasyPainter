@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/hsv_drawtools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff0000"
+    android:layout_alignParentBottom="true">
+
+   <TableLayout  
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="5dp"
+       android:layout_margin="2dp"
+       android:background="@drawable/bg2"
+       android:layout_alignParentBottom="true">        
+   <TableRow >
+
+       
+        <LinearLayout
+          android:id="@+id/footer_draw_layout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+       <Button  
+         android:layout_width="wrap_content"
+         android:layout_height="60dp"
+         android:id="@+id/btn_home"
+         android:drawableTop="@drawable/home_red"
+         android:layout_margin="5dp"
+         android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:text="home"/> 
+       
+      <Button 
+          android:background="#ff0000"
+          android:layout_height="match_parent"
+          android:layout_width="3dp"
+          android:layout_margin="5dp"/>  
+          
+      <Button  
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btn_bgcolor"
+         android:background="@android:color/transparent"
+         android:textColor="#ffffff"
+         android:drawableTop="@drawable/bgcolor"
+         android:text="bg color"
+         android:layout_margin="5dp"/>
+      
+      <Button 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btn_imgeffect"
+         android:background="@android:color/transparent"
+         android:textColor="#ffffff"
+         android:drawableTop="@drawable/effect"
+         android:text="effect"
+         android:layout_margin="5dp"
+          />
+      
+      <Button
+        android:id="@+id/btn_colorpick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+         android:background="@android:color/transparent"
+         android:textColor="#ffffff"
+         android:text="color pick"
+         android:drawableTop="@drawable/multi"/>  
+       
+       <Button
+        android:id="@+id/btn_brush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+         android:background="@android:color/transparent"
+         android:textColor="#ffffff"
+         android:text="brush"
+         android:drawableTop="@drawable/brush"/>      
+       
+            
+       
+       
+       <Button
+        android:id="@+id/btn_eraser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/eraser"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:text="eraser"
+        /> 
+        
+       <Button
+        android:id="@+id/btn_undo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/undo"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:text="undo"/>
+       
+       <Button 
+           android:id="@+id/btn_redo"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:drawableTop="@drawable/redo"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffff"
+             android:text="redo"/>
+       
+       
+        <Button 
+          android:background="#ff0000"
+          android:layout_height="match_parent"
+          android:layout_width="3dp"
+          android:layout_margin="5dp"/>
+        
+       <Button
+        android:id="@+id/SavePictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/save"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:text="save"/>
+       
+       
+       <Button
+        android:id="@+id/btn_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/share"
+        android:layout_margin="5dp"
+        android:background="@android:color/transparent"
+        android:textColor="#ffffff"
+        android:text="share"/> 
+       </LinearLayout> 
+      <LinearLayout
+          android:id="@+id/footer_effect_layout"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" >
+          
+      <Button
+          android:id="@+id/btn_effect_close"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+           android:textColor="#ffffff"
+           android:drawableTop="@drawable/close2" 
+          android:text="hide"
+          android:layout_margin="5dp"
+         
+        />
+      
+      <Button 
+          android:layout_width="3dp"
+          android:layout_height="match_parent"
+          android:background="#ff0000"
+          />
+    
+       <Button
+          android:id="@+id/btn_distort"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@android:color/transparent"
+           android:textColor="#ffffff"
+           android:drawableTop="@drawable/paint1" 
+          android:text="distort"
+          android:layout_margin="5dp"
+         
+        />
+       
+         
+      
+    <Button
+          android:id="@+id/btn_brightness"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/brightness" 
+          android:text="brightness"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+           android:layout_margin="5dp"
+        />  
+        
+       
+    
+    <Button
+          android:id="@+id/btn_contrast"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/contrast" 
+          android:text="contrast"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+          android:layout_margin="5dp"
+        />
+     <Button
+          android:id="@+id/btn_eeffect"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:drawableTop="@drawable/effect3" 
+          android:text="effect"
+          android:layout_margin="5dp"
+          android:background="@android:color/transparent"
+          android:textColor="#ffffff"
+               />
+  
+</LinearLayout>
+
+       </TableRow>
+    </TableLayout>
+
+    </HorizontalScrollView>
+    
+    
+  
+     
